@@ -1,5 +1,5 @@
 # EE464-Hardware-Project
-Team : Raşit 
-       Asım Reha
+Team : Raşit,
+       Asım Reha,
        Alma
        
