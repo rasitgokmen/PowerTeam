@@ -25,5 +25,10 @@ R=5;
 Fs=150000;
 
 syms s;
-t=tf(Vd*[rc*C 1],[1 1/(C*R)+(rc+rl)/L 1/(L*C) 0]*(L*C));
-bode(t);
+t=tf(21*Vd*[rc*C 1],[1 1/(C*R)+(rc+rl)/L 1/(L*C) 0]*(L*C));
+ bode(t);
+ t1=tf(11*[1 909],[1 110000]);
+ oltf1=t*t1;
+ bode(oltf1);
+ cltf1=oltf1/(1+oltf1);
+ rlocus(cltf1)
