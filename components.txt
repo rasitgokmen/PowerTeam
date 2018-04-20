@@ -1,4 +1,0 @@
-Main Switch : STL18265M5 / STMicroelectronics
-Diodes : V8P10-M3 / VISHAY
-Core : ETD39-N87 / TDK
-Inductor : IHLP-6767GZ-11 / VISHAY
